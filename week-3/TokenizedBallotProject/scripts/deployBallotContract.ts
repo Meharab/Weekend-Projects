@@ -33,3 +33,9 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+// Deploying TokenizedBallot contract
+// Proposals:
+// Proposal No. 1: Proposal1
+// Proposal No. 2: Proposal2
+// The ballot contract was deployed at 0xE1cbf3b40c34AE9aDc0390E9c781cD3b4D5FC791 at block 9042657
+// Voting will end at block 9057657
