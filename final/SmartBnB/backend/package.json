@@ -1,0 +1,28 @@
+{
+  "name": "smartbnb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npx hardhat compile",
+    "deploy-sepolia": "npx hardhat run ./scripts/deploy.ts --network ETH_SEPOLIA",
+    "deploy-mumbai": "npx hardhat run ./scripts/deploy.ts --network POLY_MUMBAI",
+    "node": "npx hardhat node",
+    "deploy-local": "npx hardhat run ./scripts/deploy.ts --network localhost",
+    "deploy-goerli": "npx hardhat run ./scripts/deploy.ts --network ETH_GOERLI",
+    "upload": "npx ts-node ./scripts/upload2ipfs.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "@thirdweb-dev/storage": "^1.1.4",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "hardhat": "~2.14.0",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.1.0",
+    "typescript": ">=4.5.0"
+  }
+}

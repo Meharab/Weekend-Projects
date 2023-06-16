@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Apartment in China Town",
+    "city": "New York",
+    "lat": "40.716862",
+    "long": "-73.999005",
+    "description": "2 Beds • 2 Rooms • Wifi • Kitchen • Living Area",
+    "imgUrl": "QmYJ5gudjXz9kfbicexS4H7GVvY1ZGAWRUCaqS8sGawjo2",
+    "maxGuests": 3,
+    "pricePerDay": 0.001
+  },
+  {
+    "name": "Luxury Suite in Victorian House",
+    "city": "London",
+    "lat": "51.53568",
+    "long": "-0.20565",
+    "description": "1 Beds • 1 Rooms • Bathtub • Wifi",
+    "imgUrl": "Qmek4kfSzwX2iX9BkswMo2HHLwbQxZbdBTerbF9FSQPJzJ",
+    "maxGuests": 2,
+    "pricePerDay": 0.015
+  }
+]
